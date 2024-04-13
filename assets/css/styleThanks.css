@@ -1,0 +1,22 @@
+#container {
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 50vw;
+    height: 40vh;
+    background-color: #FFFFFF;
+    border: 1px solid gray;
+    padding: 20px;
+}
+
+#btn-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#btn-back {
+    font-size: 16px;
+    width: 200px;
+    height: 50px;
+    background-color: dodgerblue;
+}

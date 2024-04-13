@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/base.css">
+    <link rel="stylesheet" href="../assets/css/styleForm.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        crossorigin="anonymous">
+    <title>Fale Comigo</title>
+</head>
+
+<body>
+    <div id="container">
+        <div>
+            <h1 style="text-align: center;">
+                Formulário de Contato
+            </h1>
+        </div>
+
+        <hr>
+        <br>
+
+        <div id="form-container">
+            <form action="#">
+                <div class="my-input">
+                    <label for="name">Nome Completo:</label>
+                    <input type="text" name="name" id="name" placeholder="Your Name">
+                </div>
+
+                <div class="my-input">
+                    <label for="email">E-Mail:</label>
+                    <input type="email" name="email" id="email" placeholder="example@email.com">
+                </div>
+
+                <div>
+                    <label for="message">Deixe sua mensagem:</label>
+                    <textarea name="message" id="message" rows="10">
+                    </textarea>
+                </div>
+            </form>
+
+            <div id="btn-container">
+                <button id="btn-back" onclick="history.back()">
+                    <i class="fa-solid fa-arrow-left"></i>
+                    Voltar
+                </button>
+
+                <a href="thanks.html">
+                    <button id="btn-send">
+                        <i class="fa-solid fa-paper-plane"></i>
+                        Enviar
+                    </button>
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: aliceblue;
+}
+
+button {
+    border: none;
+    border-radius: 5px;
+    color: #FFFFFF;
+    cursor: pointer;
+    box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+hr {
+    margin-bottom: 15px;
+}
